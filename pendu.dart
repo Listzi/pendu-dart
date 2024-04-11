@@ -44,7 +44,7 @@ void main()
             //print(element);
             if (element == lettre.toString())
             {
-              var index = mot.indexOf(element);
+              var index = element.indexOf(element);
               print(index);
               motcacher[index] = lettre.toString();
 
